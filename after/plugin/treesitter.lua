@@ -10,7 +10,7 @@ require'nvim-treesitter.configs'.setup {
 	  "markdown_inline",
 	  "python",
 	  "sql",
-	  "bash" 
+	  "bash"
   },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)

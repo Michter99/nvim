@@ -11,8 +11,6 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
-    use { "rose-pine/nvim", as = "rose-pine" }
-
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
     -- LSP Support
